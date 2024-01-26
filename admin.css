@@ -1,0 +1,308 @@
+body {
+    background-color: #292F36;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+aside ul {
+    gap: 6%;
+    padding-left: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+aside li {
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    padding-left: 0;
+    display: flex;
+}
+
+li a:hover {
+    color: aqua;
+}
+
+.sideBar {
+    width: 14%;
+    height: 100%;
+    background-color: black;
+    box-sizing: border-box;
+    position: fixed;
+}
+
+.adminIcons {
+    width: 25px;
+    height: 25px;
+}
+li a {
+    text-decoration: none;
+    color: white;
+    margin: 0px;
+}
+
+.profile {
+    color: white;
+    width: 50px;
+    height: 50px;
+}
+.profile1{
+    padding-bottom: 5%;
+    color: white;
+    align-self: center;
+}
+.myPanel{
+    align-self: flex-start;
+    padding: 0%;
+}
+
+#ap {
+    padding-left: 4%;
+    font-size: 14px;
+}
+.on{
+    color: aqua;
+    
+}
+/* 
+blogs lists */
+
+#bogText{
+    display:grid;
+    padding-left:2%;
+    /* padding-bottom: 10%; */
+    padding-top: 0%;
+    height: 100%;
+    gap: 0%;
+    width: 100%;
+}
+.p{
+    color: white;
+    margin:auto
+}
+
+
+#tagpara{
+    color: white;
+    font-size: 16px;
+    font-family: IBM Plex Mono;
+    font-weight: 400;
+    line-height: 20px;
+    width: 100%;
+    margin: auto;
+}
+.highlight{
+    color:#12F7D6
+}
+.linkBlog a{
+    text-decoration: none;
+    color: #12F7D6;
+    font-size: 20px;
+    border-bottom: 1px solid white ;
+    width: 50%;
+}
+.blogz{
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 8%;
+    gap: 0%;
+}
+.blogzFirst{
+    /* display: flex; */
+    justify-content: space-between;
+    padding-left: 6%;
+    gap: 1%;
+}
+
+#blozlist{
+    display: flex;
+    gap: 0%;
+    width: 80%;
+    padding-top: 5%;
+    padding-right: 0%;
+}
+#iconzz1{
+    padding: 0px;
+    margin:0px;
+    display:flex;
+    padding-right: 3%;
+    
+}
+#iconzz2{
+    display:flex;
+    margin: 0px;
+    padding: 0px;
+}
+#iconz{
+    color: white;
+    display: flex;
+    padding-top: 4%;
+    padding-right: 20%;
+    
+}
+.singleblogIcon1,.singleblogIcon{
+    width: 25px;
+    height: 25px;
+}
+#blozlist{
+    display: flex;
+    gap: 0%;
+}
+.adminPicture{
+    padding-top: 2%;
+}
+#z{
+    display: flex;
+    justify-content: space-between;
+}
+h3 .highlight{
+    font-size: 20px;
+}
+
+#tagpara{
+    font-size: 12px;
+}
+.zzz{
+    display: flex;
+    gap: 0%;
+    padding: 0;
+
+}
+#bogText{
+    width: 100%;
+    margin: auto;
+}
+#blozlist{
+    display: flex;
+    gap: 0%;
+    padding-left: 5%; 
+    border: 1px solid #FEF86C;
+    width: 90%;
+}
+
+
+#zzz,#zzz2{
+    display: flex;
+    padding-left: 14%;
+    padding-right: 2%;
+    gap: 2%;
+    padding-top: 5%;
+}
+.zzzButtons{
+    padding-left: 5%;
+    display: flex;
+    gap: 2%;
+    padding-top: 1%;
+}
+.b1,.b2{
+    background-color: transparent;
+    border-color: #FEF86C;
+  
+}
+.b2{
+    color: red;
+}
+.b1 a{
+    color:aqua;
+    text-decoration: none;
+}
+#zzz2{
+    padding-bottom: 5%;
+}
+
+
+#editblog{
+    color: white;
+    display: grid;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    gap: 2%;
+}
+.editForm{
+    display: grid;
+    justify-content: space-between;
+    gap: 5%;
+}
+.editTitle,.editContent,.editPhoto{
+    justify-content: space-between;
+    display: grid;
+    padding-top: 10%;
+}
+.editTitle input,.editContent input,.editPhoto button{
+    padding-left: 0%;
+    margin: auto;
+    margin-left:30%;
+    background-color: transparent;
+    border-color: #12F7D6;
+}
+.editTitle input,.editContent input{
+    border-radius: 10px;
+}
+.content{
+    width: 150%;
+    height: 100px;
+
+}
+.title{
+    width: 150%;
+}
+.editPhoto button{
+    margin-left: 50%;
+    width: 100px;
+    height: 60px;
+    color: white;
+
+}
+.editPhoto button::placeholder{
+    padding-bottom: 10% ;
+    
+}
+.photo{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom:5% ;
+}
+.upload{
+    width: 20px;
+    height: 30px;
+    padding-right:6% ;
+    padding-top: 10%;
+}
+.buttonn{
+    display: flex;
+    justify-self: center;
+    gap: 7%;
+    padding-left: 300px;
+}
+.photob,.photob1{
+    background-color: transparent;
+    color: white;
+    width: 100px;
+    height: 70px;
+    border-color: #12F7D6;
+    border-radius: 10px;
+}
+.photob1{
+    color: red;
+}
+.h5{
+    text-align: center;
+}
+.buttonn1{
+    display: flex;
+    gap: 4%;
+    padding-left: 23%;
+    padding-top: 5;
+}
